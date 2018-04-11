@@ -82,7 +82,7 @@ TypeWriter.prototype.start = function() {
 	});
 
 	$(window).on('TypeWriter:finished', function() {
-		$(window).on('click', function(e) {
+		$(window).on('click touchstart', function(e) {
 			if (e.button == 0) {
 				$(that.elmt).append("<span id='init'>" + that.endText);
 				setTimeout(function() {
