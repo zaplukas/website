@@ -5,11 +5,11 @@
 
 #typeWriter {
 	width: 100%;
-	height: 130%;
+	height: 100%;
 	color: blue;
 	background: #db0a5b;
 	font-family: 'helvetica' ,courier;
-	padding: 30px;
+	padding: 50px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -18,7 +18,7 @@
 
 #typeWriter span {
 	display: block;
-	font-size: 16px;
+	font-size: 24px;
 	letter-spacing: 2px;
 }
 
