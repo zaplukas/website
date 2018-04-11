@@ -3,12 +3,23 @@ function TypeWriter(elmt) {
 	this.selector = $(elmt);
 	this.linesToDisplay = [
 		'Hi.',
-		'This little code allows you to display multiple lines in a Matrix console style.',
-    'You can add lines in the linesToDisplay array.',
-		'Try pressing the enter key after you make sure you have the focus on the live preview section.'
+		'I make rework vintage identity items.',
+    'Special one-of-a-kind projects meant to have more meaning than...',
+		'Fast fashion garbage. x)',
+    '  ',
+    ' ;',
+    '...',
+    'These items are *NOT FOR SALE!*',
+    'Just for..friends;',
+    '., ',
+    'Contact for special requests.',
+    'surfblair@gmail.com',
+    ' ',
+    '@ZAP',
+    
 	];
-	this.firstDelay = 2000;
-	this.typingDelay = 70;
+	this.firstDelay = 800;
+	this.typingDelay = 50;
 	this.afterLineDelay = 1000;
 	this.endTimeOut = 2000;
 	this.endText = "Loading...";
@@ -71,8 +82,8 @@ TypeWriter.prototype.start = function() {
 	});
 
 	$(window).on('TypeWriter:finished', function() {
-		$(window).on('keypress', function(e) {
-			if (e.keyCode == 13) {
+		$(window).on('click', function(e) {
+			if (e.button == 0) {
 				$(that.elmt).append("<span id='init'>" + that.endText);
 				setTimeout(function() {
 					$(that.elmt).fadeOut("slow");
