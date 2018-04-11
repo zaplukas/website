@@ -10,7 +10,7 @@
 	background: #db0a5b;
 	font-family: 'helvetica' ,courier;
 	padding: 30px;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 10;
