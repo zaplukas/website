@@ -2,7 +2,7 @@ function TypeWriter(elmt) {
 	this.elmt = elmt;
 	this.selector = $(elmt);
 	this.linesToDisplay = [
-		'Hi. ☺',
+		'Hi. ☻',
 		'I make rework♺vintage identity items.',
     'Special one-of-a-kind projects meant',
     'to have more meaning than...',
