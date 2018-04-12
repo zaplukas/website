@@ -109,8 +109,8 @@ TypeWriter.prototype.start = function() {
 	});
 
 	$(window).on('TypeWriter:finished', function() {
-		$(window).on('touchstart', function(e) {
-			if (e.changedtouches == 0) {
+		$(window).on('tap', function(e) {
+			if (e.tap == 0) {
 				$(that.elmt).append("<span id='init'>" + that.endText);
 				setTimeout(function() {
 					$(that.elmt).fadeOut("slow");
