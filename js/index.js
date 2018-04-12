@@ -4,7 +4,8 @@ function TypeWriter(elmt) {
 	this.linesToDisplay = [
 		'Hi.',
 		'I make rework vintage identity items.',
-    'Special one-of-a-kind projects meant to have more meaning than...',
+    'Special one-of-a-kind projects meant',
+    'to have more meaning than...',
 		'Fast fashion garbage. x)',
     '  ',
     ' ;',
@@ -12,15 +13,15 @@ function TypeWriter(elmt) {
     'These items are *NOT FOR SALE!*',
     'Just for..friends;',
     '., ',
-    'Contact for special requests.',
+    'Contact for special requests:',
     'surfblair@gmail.com',
-    ' ',
+    ' .',
     '@ZAP',
     
 	];
 	this.firstDelay = 800;
 	this.typingDelay = 50;
-	this.afterLineDelay = 1000;
+	this.afterLineDelay = 600;
 	this.endTimeOut = 2000;
 	this.endText = "Loading...";
 }
